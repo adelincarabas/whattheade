@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(214, 182, 36);
+  margin: 0 7.5px 15px;
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
+  .content {
+    height: 90px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10%;
+
+    .title {
+      font-family: "Birthstone", cursive;
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 35px;
+      color: #14aef5;
+    }
+
+    .subtitle {
+      font-family: "Birthstone", cursive;
+      font-weight: lighter;
+      font-size: 22px;
+      color: #14aef5;
+    }
+  }
+}
+
+.directory-menu-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item-info {
+  min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(214, 182, 36);
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+
+  .content-info {
+    height: 90px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10%;
+  }
+
+  .title {
+    font-family: "Birthstone", cursive;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 35px;
+    color: #14aef5;
+  }
+
+  .subtitle {
+    font-family: "Birthstone", cursive;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #14aef5;
+  }
+}
